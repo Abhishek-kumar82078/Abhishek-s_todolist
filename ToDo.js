@@ -21,7 +21,8 @@ for(var i=0;i<addButton.length ;i++)
   var List=document.getElementById('ListName').value;
   var prior=document.getElementById('Priority').value;
   
-  //Here I was trying to using jquery but it was undefined
+  //Here I was trying to use jquery but it was undefined
+  //var List=$("ListName").value;
  
   memo.push({
     task_name:List,
